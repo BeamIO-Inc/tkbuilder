@@ -1,6 +1,6 @@
 import numpy as np
 import math
-import tkinter_gui_builder.utils.color_utils.color_converter as color_converter
+import tkbuilder.utils.color_utils.color_converter as color_converter
 
 
 def get_full_rgb_palette(rgb_palette,           # type: [[float]]

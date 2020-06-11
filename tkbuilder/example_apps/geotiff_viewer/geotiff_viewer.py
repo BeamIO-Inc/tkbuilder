@@ -1,12 +1,12 @@
 import os
 import tkinter
 from tkinter import Menu
-from tkinter_gui_builder.panel_templates.widget_panel.widget_panel import AbstractWidgetPanel
-from tkinter_gui_builder.panel_templates.image_canvas_panel.image_canvas_panel import ImageCanvasPanel
+from tkbuilder.panel_templates.widget_panel.widget_panel import AbstractWidgetPanel
+from tkbuilder.panel_templates.image_canvas_panel.image_canvas_panel import ImageCanvasPanel
 
-from tkinter_gui_builder.image_readers.geotiff_reader import GeotiffImageReader
+from tkbuilder.image_readers.geotiff_reader import GeotiffImageReader
 from tkinter import filedialog
-from tkinter_gui_builder.example_apps.geotiff_viewer.panels.band_selection import BandSelection
+from tkbuilder.example_apps.geotiff_viewer.panels.band_selection import BandSelection
 
 
 class GeotiffViewer(AbstractWidgetPanel):

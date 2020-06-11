@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 import math
 import numpy as np
-from tkinter_gui_builder.utils.color_utils.hex_color_palettes import SeabornPaletteNames
-from tkinter_gui_builder.utils.color_utils.hex_color_palettes import SeabornHexPalettes
-import tkinter_gui_builder.utils.color_utils.color_converter as color_converter
+from tkbuilder.utils.color_utils.hex_color_palettes import SeabornPaletteNames
+from tkbuilder.utils.color_utils.hex_color_palettes import SeabornHexPalettes
+import tkbuilder.utils.color_utils.color_converter as color_converter
 
 
 class PlotStyleUtils:

@@ -1,8 +1,8 @@
 import unittest
 
-from tkinter_gui_builder.panel_templates.image_canvas_panel.image_canvas import ImageCanvas
-from tkinter_gui_builder.tests.test_utils import mouse_simulator
-from tkinter_gui_builder.tests.test_utils import image_canvas_utils
+from tkbuilder.panel_templates.image_canvas_panel.image_canvas import ImageCanvas
+from tkbuilder.tests.test_utils import mouse_simulator
+from tkbuilder.tests.test_utils import image_canvas_utils
 import numpy as np
 
 

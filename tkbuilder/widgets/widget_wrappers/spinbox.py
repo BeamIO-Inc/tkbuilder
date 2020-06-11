@@ -1,5 +1,5 @@
 import tkinter
-from tkinter_gui_builder.widgets.widget_utils.widget_events import WidgetEvents
+from tkbuilder.widgets.widget_utils.widget_events import WidgetEvents
 
 
 class Spinbox(tkinter.Spinbox, WidgetEvents):

@@ -1,8 +1,8 @@
 import PIL.Image
 from PIL import ImageTk
-from tkinter_gui_builder.widgets import basic_widgets
-from tkinter_gui_builder.utils.color_utils.hex_color_palettes import SeabornHexPalettes
-import tkinter_gui_builder.utils.color_utils.color_utils as color_utils
+from tkbuilder.widgets import basic_widgets
+from tkbuilder.utils.color_utils.hex_color_palettes import SeabornHexPalettes
+import tkbuilder.utils.color_utils.color_utils as color_utils
 import platform
 import numpy
 import time
@@ -13,11 +13,11 @@ from numpy import ndarray
 from typing import Union
 import PIL.Image
 import numpy as np
-from tkinter_gui_builder.image_readers.image_reader import ImageReader
+from tkbuilder.image_readers.image_reader import ImageReader
 
-from tkinter_gui_builder.widgets.image_canvas.tool_constants import ShapePropertyConstants as SHAPE_PROPERTIES
-from tkinter_gui_builder.widgets.image_canvas.tool_constants import ShapeTypeConstants as SHAPE_TYPES
-from tkinter_gui_builder.widgets.image_canvas.tool_constants import ToolConstants as TOOLS
+from tkbuilder.widgets.image_canvas.tool_constants import ShapePropertyConstants as SHAPE_PROPERTIES
+from tkbuilder.widgets.image_canvas.tool_constants import ShapeTypeConstants as SHAPE_TYPES
+from tkbuilder.widgets.image_canvas.tool_constants import ToolConstants as TOOLS
 
 if platform.system() == "Linux":
     import pyscreenshot as ImageGrab

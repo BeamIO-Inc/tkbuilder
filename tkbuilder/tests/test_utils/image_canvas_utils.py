@@ -1,5 +1,5 @@
-from tkinter_gui_builder.panel_templates.image_canvas_panel.image_canvas import ImageCanvas
-from tkinter_gui_builder.tests.test_utils import mouse_simulator
+from tkbuilder.panel_templates.image_canvas_panel.image_canvas import ImageCanvas
+from tkbuilder.tests.test_utils import mouse_simulator
 
 
 def create_new_rect_on_image_canvas(image_canvas,  # type: ImageCanvas

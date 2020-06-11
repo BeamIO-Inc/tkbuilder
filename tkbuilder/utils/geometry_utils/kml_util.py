@@ -1,7 +1,7 @@
 from xml.etree.ElementTree import Element, SubElement, Comment
 from xml.etree import ElementTree
 from xml.dom import minidom
-from tkinter_gui_builder.utils.geometry_utils.kml_constants import KMLConstants
+from tkbuilder.utils.geometry_utils.kml_constants import KMLConstants
 
 
 class KmlUtil:

@@ -1,4 +1,4 @@
-from tkinter_gui_builder.image_readers.image_reader import ImageReader
+from tkbuilder.image_readers.image_reader import ImageReader
 import numpy
 import gdal
 from PIL import Image
